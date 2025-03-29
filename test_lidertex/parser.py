@@ -87,7 +87,7 @@ class Parser:
             raise Exception(f"Ошибка валидации данных: {e}")
         
     def get_local_json(self):
-        file_path = os.path.join("local_data", "local_data.json")
+        file_path = os.path.join("test_lidertex/local_data", "local_data.json")
 
         with open(file_path, "r", encoding="utf-8") as file:
             data = json.load(file)
