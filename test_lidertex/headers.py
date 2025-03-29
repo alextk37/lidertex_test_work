@@ -1,0 +1,91 @@
+product_headers = {
+    'accept': '*/*',
+    'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'cache-control': 'no-cache',
+    'origin': 'https://www.wildberries.ru',
+    'pragma': 'no-cache',
+    'priority': 'u=1, i',
+    'referer': 'https://www.wildberries.ru/brands/310641905-lider-dom',
+    'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'cross-site',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
+}
+
+product_params = {
+    'ab_testing': 'false',
+    'appType': '1',
+    'brand': '310641905',
+    'curr': 'rub',
+    'dest': '-1257786',
+    'hide_dtype': '13',
+    'lang': 'ru',
+    'page': '1',
+    'sort': 'popular',
+    'spp': '30',
+    'uclusters': '0',
+}
+
+vote_headers =  {
+    'accept': '*/*',
+    'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'authorization': 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDMwODU0MzgsInZlcnNpb24iOjIsInVzZXIiOiIxMTA4MTkyMzciLCJzaGFyZF9rZXkiOiI4IiwiY2xpZW50X2lkIjoid2IiLCJzZXNzaW9uX2lkIjoiYjgxYzZhYzhhYmMxNDMwNDhjNzRlMWFlMGFjOTE3YjkiLCJ1c2VyX3JlZ2lzdHJhdGlvbl9kdCI6MTY4NDA0ODY1NSwidmFsaWRhdGlvbl9rZXkiOiIwNzc5NWZiNmYwY2VkNTMwMWFjMzc5MWFlM2ZjNDQ5MDFkYzcwMTk4YmJiNzE3MDA2MTMyZjU5MzA2YzBiYWY1IiwicGhvbmUiOiJrSGQ4SFgrV0t3UC96MmpGb2ZFeU5nPT0ifQ.L-0ZJGl0l7cZRXxw6S6NMC9h63_1zf4S1qMdoQ5BQ1lXLk3lDfNTyUyO8VWiBhRhj2l1_fDG6TfG5TfI93HMf81_MjSg2Pm5MJtqwjxuGHPW9je11CEKqM6CGUEhJstyu0mBJ2M1NtvMGlenV7oi7A8FZ2w7z4vkBH6geMDFsFUTqcM535q2a73jpMdOyS29lfACszGravOkC4sWCYrhPP54dHiOFUFbpOGNEueJLbHZiibJgePtsJgN2fdTg7pWKSG7Ney7Cpxq_vpGtWC79fvyqB3x3xA7AozCLpbu1B4zPiXgTXdWSMp3rU3-EAVJV8-_K0wAHFFPOWo6jR5jHg',
+    'cache-control': 'no-cache',
+    'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+    'deviceid': 'site_640d07adde3a4fc297b0628aceae794a',
+    'origin': 'https://www.wildberries.ru',
+    'pragma': 'no-cache',
+    'priority': 'u=1, i',
+    'referer': 'https://www.wildberries.ru/brands/310641905-lider-dom',
+    'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
+    'x-requested-with': 'XMLHttpRequest',
+    'x-spa-version': '11.18.1',
+}
+
+vote_data = {
+    'brandId': '310641905',
+}
+
+seller_info_headers = {
+    'accept': '*/*',
+    'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'cache-control': 'no-cache',
+    'origin': 'https://www.wildberries.ru',
+    'pragma': 'no-cache',
+    'priority': 'u=1, i',
+    'referer': 'https://www.wildberries.ru/seller/4112047',
+    'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
+    'x-client-name': 'site',
+}
+
+legal_info_headers = {
+    'accept': '*/*',
+    'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'cache-control': 'no-cache',
+    'origin': 'https://www.wildberries.ru',
+    'pragma': 'no-cache',
+    'priority': 'u=1, i',
+    'referer': 'https://www.wildberries.ru/seller/4112047',
+    'sec-ch-ua': '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'cross-site',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
+}
